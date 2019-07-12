@@ -1,3 +1,6 @@
+#Random Import stuff
+from selenium import webdriver
+from selenium.common.keys import keys
 #Creates a prompt for starting the program
 
 userInfo = []
@@ -8,4 +11,6 @@ userInfo.append(username)
 print("Please provide twitch password")
 password = input()
 userInfo.append(password)
+
+open("browser launch.py")
 
